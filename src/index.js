@@ -15,7 +15,7 @@ app.use(express.json());
 app.use('/api/clientes', require('../routes/rutasCliente'));
 
 // Ruta para consumir la API de proveedores
-app.use('/api/provedores', require('../routes/rutasProvedor'));
+app.use('/api/provedor', require('../routes/rutasProvedor'));
 
 
 //vamos acrear la ruta para verificar nuestro servidor en la web
